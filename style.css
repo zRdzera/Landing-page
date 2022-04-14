@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+/* ======== HEADER NAVIGATION ======== */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    padding-top: 20px;
+}
+
+.navigation .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation .links a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* ======== HEADER DESCRIPTION ======== */
+.description {
+    display: flex;
+    width: 70vw;
+    height: 50vh;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.description .text {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.text .subtext {
+    margin-bottom: 10px;
+}
+
+.description img {
+    width: 30vw;
+    height: 25vh;
+}
+
+.description button {
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 28px;
+    font-size: 16px;
+}
+
+/* ======== MAIN CONTENT ======== */
