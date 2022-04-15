@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.header {
+#header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -29,20 +29,20 @@ button {
         /* ======== HEADER ======== */
 
 /*  HEADER NAVIGATION  */
-.navigation {
+#navigation {
     display: flex;
     justify-content: space-between;
     width: 70vw;
     padding-top: 20px;
 }
 
-.navigation .logo {
+#navigation .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 800;
 }
 
-.navigation ul {
+#navigation ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -50,13 +50,13 @@ button {
     gap: 20px;
 }
 
-.navigation .links a {
+#navigation .links a {
     text-decoration: none;
     color: #e5e7eb;
 }
 
 /* HEADER DESCRIPTION */
-.description {
+#description {
     display: flex;
     width: 70vw;
     height: 50vh;
@@ -70,7 +70,7 @@ button {
     color: #F9FAF8;
 }
 
-.description .text {
+#description .text {
     width: 35vw;
     display: flex;
     flex-direction: column;
@@ -83,12 +83,12 @@ button {
     margin-bottom: 10px;
 }
 
-.description img {
+#description img {
     width: 32vw;
     height: 28vh;
 }
 
-.description button {
+#description button {
     border: none;
     background-color: #3882F6;  
 }
@@ -96,11 +96,11 @@ button {
         /* ======== MAIN CONTENT ======== */
 
 /* FIRST SECTION - INFO */
-.info.section {
+#info.section {
     margin-top: 50px;
 }
 
-.info {
+#info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +113,7 @@ button {
     font-weight: 800;
 }
 
-.info ul {
+#info ul {
     width: 60vw;
     display: flex;
     list-style-type: none;
@@ -122,7 +122,7 @@ button {
     padding: 0;
 }
 
-.info li {
+#info li {
     width: 15vw;
     text-align: center;
 }
@@ -135,7 +135,7 @@ button {
 }
 
 /* SECOND SECTION - TESTIMONIAL */
-.testimonial.section {
+#testimonial.section {
     padding: 100px 0;
     background-color: #e5e7eb;
     width: 100vw;
@@ -152,7 +152,7 @@ button {
     margin: auto;
 }
 
-.testimonial cite {
+#testimonial cite {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -161,7 +161,7 @@ button {
 }
 
 /* THIRD SECTION - SIGN UP SECTION */
-.signUp {
+#signUp {
     background-color: #3882F6;
     border-radius: 10px;
     width: 70vw;
@@ -171,14 +171,14 @@ button {
     padding: 50px 100px;    
 }
 
-.signUp button {
+#signUp button {
     border: 2px solid #e5e7eb;
     background-color: #3882F6;
     align-self: center;
 }
 
         /* ======== FOOTER   ======== */
-.footer.section {
+#footer.section {
     background-color: #1F2937;
     margin: 0;
     width: 100vw;
