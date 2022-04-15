@@ -13,6 +13,19 @@ body {
     align-items: center;
 }
 
+.section {
+    width: 70vw;
+    margin: 100px auto;
+}
+
+button {
+    border-radius: 10px;
+    color: #F9FAF8;
+    
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* ======== HEADER NAVIGATION ======== */
 .navigation {
     display: flex;
@@ -75,22 +88,13 @@ body {
 }
 
 .description button {
-    border-radius: 5px;
     border: none;
-    color: #F9FAF8;
-    background-color: #3882F6;
-    padding: 5px 28px;
-    font-size: 16px;
+    background-color: #3882F6;  
 }
 
 /* ======== MAIN CONTENT ======== */
 
 /* FIRST SECTION - INFO */
-.section {
-    width: 70vw;
-    margin: 100px auto;
-}
-
 .info.section {
     margin-top: 50px;
 }
@@ -127,4 +131,45 @@ body {
     border-radius: 10px;
     height: 18vh;
     margin-bottom: 10px;
+}
+
+/* SECOND SECTION - TESTIMONIAL */
+.testimonial.section {
+    padding: 100px 0;
+    background-color: #e5e7eb;
+    width: 100vw;
+}
+
+.description-testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 56vw;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: auto;
+}
+
+.testimonial cite {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-right: 40px;
+}
+
+/* THIRD SECTION - SIGN UP SECTION */
+.signUp {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.signUp button {
+    border: 2px solid #e5e7eb;
+    background-color: #3882F6;
+    align-self: flex-end;
 }
